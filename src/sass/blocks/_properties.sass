@@ -2,7 +2,9 @@
     padding: 100px 150px
     position: relative
     &_wrapper
-        position: relative
+        display: flex
+        flex-direction: column
+        align-items: center
         &_title
             color: #0F1015
             text-align: center
@@ -22,15 +24,13 @@
             height: 500px
             border-radius: 16px
         &_desrc-block
-            position: absolute
-            left: 524px
-            top: 64%
             display: inline-block
             padding: 20px
             border-radius: 10px
             background: #3E54EB
             backdrop-filter: blur(10px)
             color: #FFF
+            transform: translate(40%, -65%)
             &_title
                 font-family: Playfair Display
                 font-size: 24px
