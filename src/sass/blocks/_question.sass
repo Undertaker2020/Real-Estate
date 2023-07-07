@@ -1,0 +1,104 @@
+.question
+	padding: 0 150px
+	min-height: 950px
+	position: relative
+	&_widget
+		background: #3E54EB
+		height: 100px
+		display: flex
+		justify-content: space-between
+		align-items: center
+		border-radius: 10px
+		backdrop-filter: blur(8px)
+		transform: translateY(-50%)
+		padding: 0 20px
+		&_item
+			&_box
+				display: flex
+				justify-content: space-between
+				&_rounds
+					width: 3.75rem
+					height: 3.75rem
+					background: rgba(255, 255, 255, 0.10)
+					border-radius: 100%
+					display: flex
+					justify-content: center
+					align-items: center
+					padding: 18px
+						
+				&_text
+					margin-left: 1rem
+					&_subtitle
+						font-size: 1.25rem
+						font-weight: 700
+						color: #fff
+					&_desrc
+						margin-top: 0.44rem
+						font-weight: 400
+						font-size: 16px
+						color: rgba(256, 256, 256, 0.5)
+			&_btn
+				padding: 16px
+				border-radius: 10px
+				background: #FFF
+				border: none
+				img
+					width: 1.5rem
+					height: 1.5rem
+					transition: 0.5s all
+				&:hover
+					img
+						transition: 0.5s all
+						scale: 1.3
+		&_vline
+			height: 3.75rem
+			width: 0.0625rem
+			background: rgba(256, 256, 256, 0.1)
+			
+	&_title
+		margin-top: 50px
+		font-size: 40px
+		font-family: Playfair Display
+		font-weight: 700
+		color: #0F1015
+	&_subtitle
+		margin-top: 10px
+		margin-bottom: 50px
+		color: #A4A6AC
+		font-size: 16px
+	&_wrapper
+		display: flex
+		flex-direction: column
+		&_block
+			margin: 20px 0
+			&_btn
+				padding: 13px
+				border-radius: 10px
+				background: rgba(62, 84, 235, 0.05)
+				border: none
+				&:hover img
+					transition: 0.5s all
+					scale: 1.3
+			&_title
+				margin-top: 16px
+				font-size: 20px
+				font-weight: 700
+				color: #0F1015
+			&_desrc
+				margin-top: 5px
+				font-size: 16px
+				font-weight: 400
+				color: #A4A6AC
+		&_hl
+			width: 573px
+			height: 1px
+			background: rgba(164, 166, 172, 0.20)
+	&_man
+		position: absolute
+		top: 150px
+		left: 745px
+	&_rounds
+		position: absolute
+		z-index: -1
+		right: 108px
+		top: -36px
