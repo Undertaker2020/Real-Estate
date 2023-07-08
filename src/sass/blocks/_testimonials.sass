@@ -1,0 +1,66 @@
+.testimonials
+    padding: 70px 150px
+    background: rgba(164, 166, 172, 0.05)
+    &_header
+        display: flex
+        justify-content: space-between
+        align-items: flex-start
+        width: 100%
+        margin-bottom: 50px
+        &_title
+            max-width: 653px
+            color: #0F1015
+            font-size: 40px
+            font-family: Playfair Display
+            font-weight: 700
+        &_controll
+            display: flex
+            &_btn
+                padding: 16px
+                border-radius: 10px
+                border: none
+                &:first-child
+                    background: rgba(164, 166, 172, 0.05)
+                    margin-right: 20px
+                &:last-child
+                    background: $main-color
+    &_wrapper
+        display: flex
+        justify-content: space-between
+        align-content: space-between
+        flex-wrap: wrap
+        &_item
+            padding: 20px
+            display: inline-flex
+            flex-direction: column
+            border-radius: 10px
+            background: #fff
+            margin-bottom: 30px
+            &_stars
+                svg    
+                    fill: #F6B34D
+                    cursor: pointer
+            &_desrc
+                margin-top: 20px
+                max-width: 320px
+            &_footer
+                margin-top: 20px
+                display: flex
+                justify-content: space-between
+                align-items: center
+                &_user
+                    display: flex
+                    align-items: center
+                    img
+                        margin-right: 10px
+                        border-radius: 100%
+                        width: 50px
+                        height: 50px
+                    &_nickname
+                        color: #0F1015
+                        font-size: 20px
+                        font-weight: 700
+                    &_location
+                        color: #A4A6AC
+                        font-size: 14px
+                        font-weight: 400

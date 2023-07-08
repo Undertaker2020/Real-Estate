@@ -30,7 +30,8 @@
             background: #3E54EB
             backdrop-filter: blur(10px)
             color: #FFF
-            transform: translate(40%, -65%)
+            transform: translate(524px, 275px)
+            z-index: 1
             &_title
                 font-family: Playfair Display
                 font-size: 24px
@@ -69,7 +70,58 @@
                 &:hover
                     background: #fff
                     color: $main-color
-    &_rounds
+    &_rounds_first
         position: absolute
         left: 60px
         top: 52px
+    &_rounds_second
+        position: absolute
+        right: 0px
+        bottom: -25px
+        z-index: 1
+    &_agents
+        margin-top: 200px
+        &_title
+            color:  #0F1015
+            font-family: Playfair Display
+            font-size: 40px
+            font-weight: 700
+        &_desrc
+            margin-top: 10px
+            color: #A4A6AC
+            font-size: 16px
+            font-weight: 400
+        &_wrapper
+            margin-top: 50px
+            display: flex
+            justify-content: space-between
+            &_vl
+                background: rgba(164, 166, 172, 0.2)
+                width: 1px
+            &_visitcard
+                display: inline-flex
+                flex-direction: column
+                &_agent
+                    width: 100%
+                    border-radius: 10px
+                    &_odd
+                        margin-top: 20px
+                &_name
+                    margin-top: 20px
+                    color: #0f1015
+                    font-family: Playfair Display
+                    font-size: 24px
+                    font-weight: 700
+                    &_odd
+                        margin-top: 0
+                &_post
+                    margin-top: 10px
+                    color: #A4A6AC
+                    font-size: 16px
+                    font-weight: 400
+                &_desrc
+                    margin-top: 20px
+                    max-width: 339px
+                    color: #0F1015
+                    font-size: 16px
+                    font-weight: 400
